@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    background-color: blue; /* Light background color */
+    font-family: Arial, sans-serif; /* Choose an appropriate font */
+    margin: 20px; /* Add some margin to the body */
+}
+
+h2 {
+        text-align: center;
+        background-color: blue; /* Dark blue background color for the header */
+        color: #ffffff; /* White text color for the header */
+        padding: 10px; /* Add padding for better visual appearance */
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px; /* Add space below the form */
+}
+
+label {
+    margin-right: 10px; /* Add space between labels and dropdowns */
+}
+
+select {
+    padding: 5px; /* Add some padding to dropdowns */
+}
+
+input[type="submit"] {
+    padding: 8px 12px; /* Add padding to the submit button */
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer; /* Add pointer cursor to the button */
+}
+
+/* Matchup Grid Styles */
+.matchup-grid {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px; /* Add space between grid items */
+
+}
+
+.matchup-item {
+    text-align: center;
+    width: calc(20% - 20px); /* Set the width of each item (20% - gap) */
+    background-color: #fff; /* Matchup item background color */
+    padding: 15px; /* Add padding to the matchup item */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.matchup-item img {
+
+    border-radius: 4px; /* Add rounded corners to images */
+    margin-bottom: 10px; /* Add space below images */
+}
+
+/* Modal Styles */
+.modal-content {
+    background-color: #fff; /* Modal content background color */
+    border-radius: 8px; /* Add rounded corners to the modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow to the modal */
+}
+
+.modal-title {
+    color: #333; /* Modal title color */
+}
+
+.modal-body {
+    padding: 20px; /* Add padding to the modal body */
+}
+
+.modal-footer {
+    background-color: #f5f5f5; /* Modal footer background color */
+    padding: 15px; /* Add padding to the modal footer */
+}
+
+/* Video Embed Styles */
+iframe {
+    width: 100%; /* Make the video embed responsive */
+    height: 315px; /* Set a fixed height for the video */
+}
